@@ -1,0 +1,40 @@
+package com.scaler.productservice.repositories;
+
+import com.scaler.productservice.model.Product;
+import com.scaler.productservice.repositories.projections.ProductProjection;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
+
+import java.util.List;
+
+public interface ProductRepository extends JpaRepository<Product, Long> {
+    // add product to database
+    Product save(Product product);
+
+    // insert into product values ();
+    Product findByTitle(String title);
+
+    // select * from product where title = {};
+    Product findByDescription(String description);
+
+    // implementing HQL
+    @Query("select p from Product p where p.category.id = :categoryId")
+    List<Product> getProductsByCategoryId(@Param("categoryId") Long categoryId);
+
+    // implementing native queries
+    @Query(value = "select * from product p where p.category_id = :categoryId", nativeQuery = true)
+    List<Product> getProductsByCategoryIdWithNativeQueries(@Param("categoryId") Long categoryId);
+
+    // HQL with projections
+    // Allows you to fetch certain specific columns from the database
+    // How to implement HQL
+    @Query("select p.title as title, p.id as id from Product p where p.category.id = :categoryId")
+    List<ProductProjection> getProductsByCategoryIdProjection(@Param("categoryId") Long categoryId);
+}
+
+// the attributes that are created by database, you will get it as part
+// of the response, but you don't have to pass it.
+
+// In order to save something in database
+// Insert into product () values ();
