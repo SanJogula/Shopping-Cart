@@ -1,4 +1,4 @@
-package com.scaler.productservice.repositories.projections;
+package com.santhosh.productservice.repositories.projections;
 
 public interface ProductProjection {
     Long getId();

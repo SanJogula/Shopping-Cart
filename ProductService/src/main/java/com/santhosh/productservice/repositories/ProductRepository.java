@@ -1,7 +1,7 @@
-package com.scaler.productservice.repositories;
+package com.santhosh.productservice.repositories;
 
-import com.scaler.productservice.model.Product;
-import com.scaler.productservice.repositories.projections.ProductProjection;
+import com.santhosh.productservice.model.Product;
+import com.santhosh.productservice.repositories.projections.ProductProjection;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

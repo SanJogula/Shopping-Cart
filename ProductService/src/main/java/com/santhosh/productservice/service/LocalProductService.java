@@ -1,11 +1,11 @@
-package com.scaler.productservice.service;
+package com.santhosh.productservice.service;
 
-import com.scaler.productservice.exceptions.CategoryNotFoundException;
-import com.scaler.productservice.exceptions.ProductNotFoundException;
-import com.scaler.productservice.model.Category;
-import com.scaler.productservice.model.Product;
-import com.scaler.productservice.repositories.CategoryRepository;
-import com.scaler.productservice.repositories.ProductRepository;
+import com.santhosh.productservice.exceptions.CategoryNotFoundException;
+import com.santhosh.productservice.exceptions.ProductNotFoundException;
+import com.santhosh.productservice.model.Category;
+import com.santhosh.productservice.model.Product;
+import com.santhosh.productservice.repositories.CategoryRepository;
+import com.santhosh.productservice.repositories.ProductRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

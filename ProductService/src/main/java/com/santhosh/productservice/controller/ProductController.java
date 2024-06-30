@@ -1,11 +1,10 @@
-package com.scaler.productservice.controller;
+package com.santhosh.productservice.controller;
 
-import com.scaler.productservice.dto.ErrorDto;
-import com.scaler.productservice.exceptions.CategoryNotFoundException;
-import com.scaler.productservice.exceptions.ProductNotFoundException;
-import com.scaler.productservice.model.Product;
-import com.scaler.productservice.service.FakeStoreProductService;
-import com.scaler.productservice.service.ProductService;
+import com.santhosh.productservice.dto.ErrorDto;
+import com.santhosh.productservice.exceptions.CategoryNotFoundException;
+import com.santhosh.productservice.exceptions.ProductNotFoundException;
+import com.santhosh.productservice.model.Product;
+import com.santhosh.productservice.service.ProductService;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

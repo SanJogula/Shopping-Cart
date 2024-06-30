@@ -1,4 +1,4 @@
-package com.scaler.productservice.configs;
+package com.santhosh.productservice.configs;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

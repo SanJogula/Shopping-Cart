@@ -1,4 +1,4 @@
-package com.scaler.productservice.model;
+package com.santhosh.productservice.model;
 
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

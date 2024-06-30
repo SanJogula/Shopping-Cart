@@ -1,4 +1,4 @@
-package com.scaler.productservice.dto;
+package com.santhosh.productservice.dto;
 
 import lombok.Data;
 

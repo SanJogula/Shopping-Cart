@@ -1,4 +1,4 @@
-package com.scaler.productservice.model;
+package com.santhosh.productservice.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.Entity;

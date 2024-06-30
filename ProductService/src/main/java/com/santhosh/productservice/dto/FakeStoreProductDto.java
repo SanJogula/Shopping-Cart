@@ -1,7 +1,7 @@
-package com.scaler.productservice.dto;
+package com.santhosh.productservice.dto;
 
-import com.scaler.productservice.model.Category;
-import com.scaler.productservice.model.Product;
+import com.santhosh.productservice.model.Category;
+import com.santhosh.productservice.model.Product;
 import lombok.Data;
 
 @Data

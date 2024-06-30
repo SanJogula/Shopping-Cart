@@ -1,4 +1,4 @@
-package com.scaler.productservice.model;
+package com.santhosh.productservice.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.ManyToOne;

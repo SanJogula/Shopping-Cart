@@ -1,4 +1,4 @@
-package com.scaler.productservice.exceptions;
+package com.santhosh.productservice.exceptions;
 
 public class CategoryNotFoundException extends Exception {
     public CategoryNotFoundException(String message) {

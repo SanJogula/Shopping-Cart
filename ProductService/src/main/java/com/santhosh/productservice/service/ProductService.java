@@ -1,8 +1,8 @@
-package com.scaler.productservice.service;
+package com.santhosh.productservice.service;
 
-import com.scaler.productservice.exceptions.CategoryNotFoundException;
-import com.scaler.productservice.exceptions.ProductNotFoundException;
-import com.scaler.productservice.model.Product;
+import com.santhosh.productservice.exceptions.CategoryNotFoundException;
+import com.santhosh.productservice.exceptions.ProductNotFoundException;
+import com.santhosh.productservice.model.Product;
 
 import java.util.List;
 
